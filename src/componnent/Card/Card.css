@@ -1,0 +1,50 @@
+.cardPhotoshop{
+    color: black;
+    margin: 30px;
+    background: #fff;
+    border: 1px solid hsla(0, 0%, 0%, 0.1);
+    border-radius: 4px;
+    display: flex;
+    flex-flow: row;
+    padding: 1em;
+    
+}
+.cardPhotoshop img{
+    /*
+    border: 2px solid white;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 10px;
+    */
+    width: 100%;
+    max-height: 70vh;
+    min-width: 350px;
+     margin-bottom: 1em;
+}
+
+.containerDescrição{
+    margin: 20px;
+}
+.containerDescrição p{
+    text-align: justify ;
+    font-family: 'Times New Roman', Times, serif;
+}
+.containerDescrição h4{
+    text-align:end;
+    
+}
+.containerDescrição a{
+    text-decoration: none;
+    color: #cc0e0e;
+}
+.containerDescrição a:hover{
+    color: #57580b;
+    font-size: 18px;
+}
+@media (max-width: 1024px){
+    .cardPhotoshop{
+        display: flex;
+        flex-direction: column;
+        min-width: 450px;
+    }
+}

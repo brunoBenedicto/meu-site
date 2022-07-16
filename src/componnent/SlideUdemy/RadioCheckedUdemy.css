@@ -1,0 +1,19 @@
+#radioU1:checked ~ .firstU{
+    margin-left: 0;
+}
+#radioU2:checked ~ .firstU{
+    margin-left: -25%;
+}
+#radioU3:checked ~ .firstU{
+    margin-left: -50%;
+}
+
+#radio1U:checked ~.navigation-autoU .auto-btnU1{
+    background-color: #fff;
+}
+#radio2U:checked ~.navigation-autoU .auto-btnU2{
+    background-color: #fff;
+}
+#radio3U:checked ~.navigation-autoU .auto-btnU3{
+    background-color: #fff;
+}

@@ -1,0 +1,9 @@
+.ContainerSlide{
+    
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+}
+
+.ContainerSlide p{
+    text-align: justify;
+}

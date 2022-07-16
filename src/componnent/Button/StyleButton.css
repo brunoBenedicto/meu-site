@@ -1,0 +1,13 @@
+.btnStyle{
+ 
+    min-width: 200px;
+    height: 40px;
+    background: #999999;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+
+}
+
+.btnStyle:hover{
+    background: #4e3d3d;
+}

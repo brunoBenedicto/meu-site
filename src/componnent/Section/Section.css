@@ -1,0 +1,5 @@
+.section {
+    height: 70vh;
+    max-width: 100%;
+    overflow-y:auto;
+}

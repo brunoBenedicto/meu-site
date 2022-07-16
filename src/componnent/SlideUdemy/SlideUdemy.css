@@ -1,0 +1,48 @@
+.sliderU{
+    margin: 0 auto;
+    width: 400px;
+    overflow: hidden;
+    border: 1px solid wheat;
+    border-radius: 5px;
+}
+
+.slidesU{
+   width: 400%;
+    height: 350px;
+    display: flex;
+}
+
+.slidesU input{
+    display: none;
+}
+
+.slideU{
+    width: 25%;
+    position: relative;
+    transition: 2s;
+}
+
+.slideU img{
+    width: 400px;
+}
+
+.manual-navigationU{
+    position: relative;
+    width: 400px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+.manual-btnU{
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btnU :not(:last-child){
+    margin-right: 40px;
+}
+.manual-btnU:hover{
+    background-color: #fff;
+}
